@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+
+  	#header{
+  		text-align:center;
+  	}
+
+  	#marginshift{
+  		margin-left:10px;
+  	}
+
+  	#container{
+  		margin-top: 20px;
+  		height:300px;
+  	/*	border:1px solid yellow; */  		
+  	}
+
+  	#leftbox{
+  		float:left;
+  		height:100px;
+  		width:500px;
+/*  		border: 1px solid red; */
+  	}
+
+  	#rightbox{
+  		float:right;
+  		height:100px;
+  		width:500px;
+  /*		border: 1px solid red; */
+  	}
+
+  	@media screen and (max-width: 1000px) {
+  		#leftbox, #rightbox{
+  			height:100px;
+  			width:400px;
+  		}
+
+
+  	}
+
+  </style>
+
+
+</head>
+<body style="background-color: #FFE; border: 1px solid black;">
+  
+	<div id="header">
+			<h1>Mama’s Recipe: The Best Chocolate Chip Cookies Recipe </h1>
+			<img src = "cookies.jpg", style="border: 1px solid black"> 
+			<p>Recipe by: My Grandma | Prep Time: 45 Min</p>
+	</div>
+
+	<div id="container">
+
+		<div id="leftbox">
+				<h1 id="marginshift">Ingredients:</h1>
+				<ul>
+					<li> 1 1/2 cup (3 sticks) softened butter </li>
+					<li> 1 cup brown sugar </li>
+					<li> 1 cup granulated sugar </li>
+					<li> 1 Tbl vanilla instant pudding powder </li>
+					<li> 2 Tbl milk </li>
+					<li> 2 Tbl vanilla extract </li>
+					<li> 2 eggs </li>
+					<li> 4 cups all purpose flour </li>
+					<li> 2 tsp baking soda </li>
+					<li> 1/2 tsp salt </li>
+					<li> 4 cups chocolate chips </li>
+					<li> 1 cup chopped walnuts or pecans(optional) </li>
+				</ul>
+		</div>
+
+		<div id="rightbox">
+				<h1 id="marginshift">How to make Mama’s Recipe:</h1>
+				<ol>
+					<li> Preheat oven to 350 degrees</li>
+					<li> Beat butter and sugars together until light and fluffy</li>
+					<li> Stir in pudding mix milk and vanilla extract </li>
+					<li> Beat in eggs </li>
+					<li> Add dry ingredients and stir until combined </li>
+					<li> Stir in chocolate chips and nuts </li>
+					<li> Place 1 1/2 inch balls of dough 2 inches apart on an un greased cookie sheet </li>
+					<li> Bake 8-10 minutes or until golden brown </li>
+				</ol>
+		</div>
+		
+	</div>
+
+	<h1 id="marginshift">Nutrition Information</h1>
+	<p id="marginshift">Probably bad for you, but who cares. MMMMMM COOKIES!!!! nom nom nom </p>
+
+
+	<div>
+		<a href= "http://www.opensourcefood.com/people/Amanori/recipes/mamas-recipe-the-best-chocolate-chip-cookies" style="color:#900; text-decoration:none; margin-left:10px;"> Recipe Link </a>
+	</div>
+
+</body>
+</html>
+
