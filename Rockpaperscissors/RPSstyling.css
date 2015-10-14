@@ -1,0 +1,122 @@
+
+h1,h2,h3{text-align: center;}
+h2		{margin-top:50px;	}
+
+
+
+/* styling for the instructional video*/
+.instructions{
+	width:620px;
+	margin: 0 auto;
+}
+
+/* styling for the game portion of the site video
+=================================================================
+*/
+.play{
+	width:700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.play h2:first-child{
+	padding-top:20px;
+}
+
+.play p{
+	text-align: center;
+}
+section{
+	background-color: #c4dff6;
+}
+
+/* styling for the icons of the game
+=================================================================
+*/
+.foot, .nuclear_bomb, .cockroach{
+	width:150px;
+	height:150px;
+	border-radius: 75px;
+	display:inline-block;
+	border: 1px solid gray;
+	margin:20px 0px 30px 0;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.nuclear_bomb{
+	margin-left:50px;
+	margin-right: 50px;
+}
+
+.foot:hover, .nuclear_bomb:hover, .cockroach:hover{
+	background-color:white;
+	border: 1px solid white;
+}
+
+.cockroach{background-image: url("https://cdn1.iconfinder.com/data/icons/bug-s-life/500/cockroach-512.png");}
+.foot{background-image: url("https://pbs.twimg.com/profile_images/1627622365/BF-Player-foot_1_.png");}	
+.nuclear_bomb{ background-image: url("https://lh6.ggpht.com/3b34N0j2xxM-8w0mS29bFJFvoRsdnmJE4bpHFbri5zQ_TWQNNJeqriCtTme1OG54xw=w300");}		
+
+
+
+/* styling for the scoreboard 
+=================================================================
+*/
+.yourscore, .botscore, .ties{
+	width:200px;
+	height:50px;
+	display:inline-block;
+	color:black;
+	font-size: 30px;
+}
+
+
+.scoreboard{
+	display:inline-block;
+	border:2px solid blue;
+	margin-bottom: 20px;
+}
+
+.scoreboard p{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.Yourselection, .Botselection, .winner{
+	display:inline-block;
+	width: 200px;
+	color:#00405d;
+	font-weight: bold;
+	margin-bottom:30px;
+}
+
+.Botselection, .winner{
+	margin-left: 20px;
+}
+
+.winner{
+	color:red;
+	text-transform: uppercase;
+}
+
+
+/* styling for the button that resets the scores
+=================================================================
+*/
+.scorebutton{
+	text-align: center;
+	border:1px solid gray;
+	width:100px;
+	border-radius:10px;
+	margin:0 auto;
+	font-weight: bold;
+}
+
+.scorebutton:hover{
+	background-color: #7d3f98;
+	border:1px solid white;
+	color:white;
+}
